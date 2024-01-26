@@ -5,7 +5,8 @@
 //import { Contador } from "./components/Contador";
 //import { ContadorCustomHook } from "./components/ContadorCustomHook";
 // import { ComponenteUseEffect } from "./components/ComponenteUseEffect";
-import { Login } from "./components/Login";
+//import { Login } from "./components/Login";
+import { Usuarios } from "./components/Usuarios";
 
 // componente - en base a una función
 const App = () => {
@@ -19,7 +20,8 @@ const App = () => {
       {/*<Contador/>*/}
       {/* <ContadorCustomHook/> */}
       {/* <ComponenteUseEffect/> */}
-      <Login/>
+      {/* <Login/> */}
+      <Usuarios/>
     </div>
   )
 }
